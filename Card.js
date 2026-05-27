@@ -37,7 +37,6 @@ function renderizarProductos(listaParaPintar) {
         const estaAgotado = product.agotado === true;
         const textoBoton = estaAgotado ? "Agotado" : (product.botton || "Agregar");
         
-        // 👇 CORREGIDO: Se eliminó 'pointer-events: none;' para evitar que bloquee clics externos en la página
         const estiloTarjetaGris = estaAgotado 
             ? `style="filter: grayscale(100%); opacity: 0.6; background-color: #f5f5f5;"` 
             : '';
@@ -230,17 +229,18 @@ function checkout() {
 
     const whatsappUrl = 'https://whatsapp.com' + encodeURIComponent(message);
 
-    // 👇 CORREGIDO: Intenta abrir en pestaña nueva; si el navegador lo bloquea, redirige en la misma pestaña
-    const nuevaVentana = window.open(whatsappUrl, '_blank');
-    if (!nuevaVentana || nuevaVentana.closed || typeof nuevaVentana.closed == 'undefined') {
-        window.location.href = whatsappUrl;
-    }
+    // Redirección forzada e inmediata
+    window.location.href = whatsappUrl;
 }
 
-// CONECTOR DE RESPALDO DIRECTO
-document.addEventListener("DOMContentLoaded", () => {
-    const botonEnviar = document.getElementById("btn-whatsapp");
-    if (botonEnviar) {
-        botonEnviar.onclick = checkout;
+// 👇 NUEVO CONECTOR DE RESPALDO (ESCUCHA GLOBAL DE CLICS)
+// Captura el clic sin importar si tu botón usa un ID o una clase específica
+document.addEventListener("click", function(event) {
+    const target = event.target;
+    
+    // Si hacen clic directamente en el botón o en un ícono dentro de él
+    if (target.id === "btn-whatsapp" || target.closest("#btn-whatsapp") || target.classList.contains("btn-whatsapp") || target.closest(".btn-whatsapp")) {
+        event.preventDefault();
+        checkout();
     }
 });
