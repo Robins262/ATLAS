@@ -1,19 +1,29 @@
 [
   {
     "id": 1,
-    "nombre": "Nueva",
-    "categoria": "DULCE",
-    "descripcion": "Citrico",
-    "precio": 50,
-    "descuento": 116
+    "nombre": "Prensa 45 grados LM-1056",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2990,
+    "descuento": 3199,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_89.png"
   },
   {
     "id": 2,
-    "nombre": "Prueba",
-    "categoria": "Prueba",
-    "descripcion": "PRUEBA",
-    "precio": 50,
-    "descuento": 100,
-    "imagen": "imagenes/9bf30566d194df3ba82bfbafa9eb4b5d.jpg"
+    "nombre": "TRICEPS PRESS PRECOR LM-1085",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_29.png"
+  },
+  {
+    "id": 3,
+    "nombre": "POLEA ALTA CON REMO PRECOR - LM-1078",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 3200,
+    "descuento": 3598,
+    "imagen": "imagenes/image.png"
   }
 ]
