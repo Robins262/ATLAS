@@ -522,5 +522,86 @@
     "descuento": 3200,
     "imagen": "imagenes/1dfdbe741d8b480cae7ddd371979b42b.png",
     "agotado": true
+  },
+  {
+    "id": 57,
+    "nombre": "ABDUCTOR/ADDUCTOR DUAL PRECOR",
+    "categoria": "PRECOR",
+    "precio": 3200,
+    "descuento": 3600,
+    "imagen": "imagenes/4ac2dba5954940e4a6dc78c3d9e14568.png",
+    "agotado": true
+  },
+  {
+    "id": 58,
+    "nombre": "LAT PULLDOWN HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3600,
+    "imagen": "imagenes/0d14bd6d5cf946379f0e9637e31a86d9.webp",
+    "agotado": true
+  },
+  {
+    "id": 59,
+    "nombre": "BANCO SCOTT TUBO ELIPTICO",
+    "categoria": "HOIST",
+    "precio": 1060,
+    "descuento": 1500,
+    "imagen": "imagenes/image (8).png",
+    "agotado": false
+  },
+  {
+    "id": 60,
+    "nombre": "MID ROW HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3600,
+    "imagen": "imagenes/57d635beaa884b3da09dbc5033df6fcc.webp",
+    "agotado": true
+  },
+  {
+    "id": 61,
+    "nombre": "ABDOMINAL HOIST",
+    "categoria": "HOIST",
+    "precio": 3600,
+    "descuento": 3900,
+    "imagen": "imagenes/FW2-024_KBFjkKBAgSisRRpxKBQIpsk.jpeg",
+    "agotado": true
+  },
+  {
+    "id": 62,
+    "nombre": "SEATED DIP HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/8257147a8e1849c38bcf99670d90a48a-2.png",
+    "agotado": false
+  },
+  {
+    "id": 63,
+    "nombre": "PREACHER CURL HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/d4932b9d17444ac392218f0ed2382919.png",
+    "agotado": false
+  },
+  {
+    "id": 64,
+    "nombre": "CHEST PRESS HOSIT",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/d855d8ad15764005ad5b8ddbef121969.png",
+    "agotado": false
+  },
+  {
+    "id": 65,
+    "nombre": "DUAL LEG ACTION HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/2c96de75263c40119fc857de10709040.png",
+    "agotado": false
   }
 ]
