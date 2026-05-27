@@ -603,5 +603,131 @@
     "descuento": 3200,
     "imagen": "imagenes/2c96de75263c40119fc857de10709040.png",
     "agotado": false
+  },
+  {
+    "id": 66,
+    "nombre": "SHOULDER PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/3e25661de55746b99c577e003bb5d509.png",
+    "agotado": false
+  },
+  {
+    "id": 67,
+    "nombre": "INCLINE CHEST PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/a7a1b4e07dd743928a57a9d552df57b8.png",
+    "agotado": false
+  },
+  {
+    "id": 68,
+    "nombre": "SHOULDER PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/3e25661de55746b99c577e003bb5d509-1.png",
+    "agotado": false
+  },
+  {
+    "id": 69,
+    "nombre": "INCLINE CHEST PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/a7a1b4e07dd743928a57a9d552df57b8-1.png",
+    "agotado": false
+  },
+  {
+    "id": 70,
+    "nombre": "DECLINE CHEST PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/1bbbb247c9f44f348e5c768c91ae45ab-1.png",
+    "agotado": false
+  },
+  {
+    "id": 71,
+    "nombre": "HACK SQUAT / DEAD LIFT HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/f98ec9b0b3444cf5bfe5df12a8a1bdf1.png",
+    "agotado": false
+  },
+  {
+    "id": 72,
+    "nombre": "STANDING CALF RAISE HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3497,
+    "imagen": "imagenes/1aba29c5e5a441cbafe79138d67f02fb.png",
+    "agotado": true
+  },
+  {
+    "id": 73,
+    "nombre": "CHEST PRESS / SHOULDER RAISE HOIST",
+    "categoria": "HOIST",
+    "precio": 2990,
+    "descuento": 3500,
+    "imagen": "imagenes/b5a3760fc0044d6f8052ba3202e83e11.png",
+    "agotado": true
+  },
+  {
+    "id": 74,
+    "nombre": "AB CRUNCH / LOW BACK HOIST",
+    "categoria": "HOIST",
+    "precio": 3600,
+    "descuento": 3900,
+    "imagen": "imagenes/36743b7e9828448d854129195e2363a8.png",
+    "agotado": false
+  },
+  {
+    "id": 75,
+    "nombre": "LEG PRESS/ CALF RAISE HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/eaa4fd59c2e340c7a1c9a6c4eb011327.png",
+    "agotado": true
+  },
+  {
+    "id": 76,
+    "nombre": "LAT PULLDOWN / MID ROW HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/fc0e477c5954419db2ac7c4fc65b32fe.png",
+    "agotado": true
+  },
+  {
+    "id": 77,
+    "nombre": "ABS HOIST ",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/50cd0416f1f94079b3143a6a4235f906.png",
+    "agotado": true
+  },
+  {
+    "id": 78,
+    "nombre": "PECTORAL FLY HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/21689903f14f432a9e9bcc41a413ec4b.png",
+    "agotado": true
+  },
+  {
+    "id": 79,
+    "nombre": "SEATED CALF HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/e51a2208055f45938dda31130d08c885.png",
+    "agotado": true
   }
 ]
