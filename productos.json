@@ -17,7 +17,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_29.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 3,
