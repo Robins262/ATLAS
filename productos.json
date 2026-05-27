@@ -70,5 +70,68 @@
     "precio": 2200,
     "descuento": 3000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41.png"
+  },
+  {
+    "id": 9,
+    "nombre": "DIP/CHIN ASSIST PRECOR-LM-1040",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3000,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41 (1).png"
+  },
+  {
+    "id": 10,
+    "nombre": "LEG EXTENSION PRECOR-LM-1002",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_53.png"
+  },
+  {
+    "id": 11,
+    "nombre": "PRENSA DE PIERNAS SENTADO PRECOR-LM-1003",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_53 (1).png"
+  },
+  {
+    "id": 12,
+    "nombre": "PEC DEC / PECTORALMACHINE PRECOR-LM-1004",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_53 (2).png"
+  },
+  {
+    "id": 13,
+    "nombre": "MAQUINA AISLADOR DE GLUTEOS PRECOR-LM-1024",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_49.png"
+  },
+  {
+    "id": 14,
+    "nombre": "LEG CURL FEMORAL ACOSTADO PRECOR-LM-1001",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_50.png"
+  },
+  {
+    "id": 15,
+    "nombre": "LEG CURL PRECOR-LM-1023",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_44-1.png"
   }
 ]
