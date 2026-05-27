@@ -67,8 +67,8 @@ function renderizarProductos(listaParaPintar) {
     });
 }
 
-// 3. CONSULTA AL ARCHIVO DE LA INTERFAZ (AJUSTADO PARA TU CMS)
-fetch('./productos.json')
+// 3. CONSULTA AL ARCHIVO DE LA INTERFAZ (CON ROMPE-CACHÉ INTEGRADO)
+fetch(`./productos.json?v=${new Date().getTime()}`)
   .then(response => {
       if (!response.ok) throw new Error('No se pudo leer el archivo de productos');
       return response.json();
