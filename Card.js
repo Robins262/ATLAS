@@ -37,14 +37,14 @@ function renderizarProductos(listaParaPintar) {
         const estaAgotado = product.agotado === true;
         const textoBoton = estaAgotado ? "Agotado" : (product.botton || "Agregar");
         
-        // 👇 NUEVO: Estilo dinámico para poner Gris toda la tarjeta del producto si está agotado
+        // 👇 CORREGIDO: Se eliminó 'pointer-events: none;' para evitar que bloquee clics externos en la página
         const estiloTarjetaGris = estaAgotado 
-            ? `style="filter: grayscale(100%); opacity: 0.6; background-color: #f5f5f5; pointer-events: none;"` 
+            ? `style="filter: grayscale(100%); opacity: 0.6; background-color: #f5f5f5;"` 
             : '';
 
         // Desactiva por completo el botón si el producto está sin stock
         const atributosBoton = estaAgotado 
-            ? `disabled style="background-color: #ccc; border-color: #ccc; color: #666; cursor: not-allowed;"` 
+            ? `disabled style="background-color: #ccc; border-color: #ccc; color: #666; cursor: not-allowed; pointer-events: none;"` 
             : `onclick="addToCart(${idProducto}, '${product.nombre || 'Gelatina'}', ${product.precio || 0}, '${urlImagen}')"`;
 
         const iconoBoton = estaAgotado 
@@ -80,7 +80,6 @@ fetch(`./productos.json?v=${new Date().getTime()}`)
   })
   .then(data => {
       let listaCms = [];
-      // Extrae de forma segura el array desde el objeto 'productos' generado por tu YAML
       if (data && Array.isArray(data.productos)) {
           listaCms = data.productos;
       } else if (Array.isArray(data)) {
@@ -229,11 +228,13 @@ function checkout() {
 
     message += `\nTotal: S/ ${total.toFixed(2)}\n\n¡Gracias! ✨`;
 
-    const whatsappUrl =
-        'https://whatsapp.com' +
-        encodeURIComponent(message);
+    const whatsappUrl = 'https://whatsapp.com' + encodeURIComponent(message);
 
-    window.open(whatsappUrl, '_blank');
+    // 👇 CORREGIDO: Intenta abrir en pestaña nueva; si el navegador lo bloquea, redirige en la misma pestaña
+    const nuevaVentana = window.open(whatsappUrl, '_blank');
+    if (!nuevaVentana || nuevaVentana.closed || typeof nuevaVentana.closed == 'undefined') {
+        window.location.href = whatsappUrl;
+    }
 }
 
 // CONECTOR DE RESPALDO DIRECTO
