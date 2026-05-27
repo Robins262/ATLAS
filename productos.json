@@ -342,5 +342,50 @@
     "descuento": 2900,
     "imagen": "imagenes/45dee785e857424ca0d67a6fd7c06fbc.png",
     "agotado": true
+  },
+  {
+    "id": 37,
+    "nombre": "REMO SENTADO HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2600,
+    "descuento": 2900,
+    "imagen": "imagenes/WhatsApp_Image_2024-09-20_at_3.43.00_PM-removebg-preview.png",
+    "agotado": true
+  },
+  {
+    "id": 38,
+    "nombre": "REMO INCLINADO HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2600,
+    "descuento": 2900,
+    "imagen": "imagenes/a1c5eb53b03e474fa15757b121db48aa.png",
+    "agotado": true
+  },
+  {
+    "id": 39,
+    "nombre": "PATADA DE GLUTEOS HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2600,
+    "descuento": 2900,
+    "imagen": "imagenes/a1c5eb53b03e474fa15757b121db48aa-1.png",
+    "agotado": true
+  },
+  {
+    "id": 40,
+    "nombre": "TRICEPS PRESS precor",
+    "categoria": "PRECOR",
+    "precio": 2900,
+    "descuento": 3200,
+    "imagen": "imagenes/2f15daccca8e45889b4d39ae3d90473e.png",
+    "agotado": true
+  },
+  {
+    "id": 41,
+    "nombre": "VERTICAL ROW PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2900,
+    "descuento": 3200,
+    "imagen": "imagenes/52410c5bba13458cb9c714609be2c986.png",
+    "agotado": true
   }
 ]
