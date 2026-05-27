@@ -133,5 +133,32 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_44-1.png"
+  },
+  {
+    "id": 16,
+    "nombre": "ELEVACION LATERAL PRECOR-LM-1005",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_63.png"
+  },
+  {
+    "id": 17,
+    "nombre": "PRESS DE HOMBRO PRECOR -LM-1006",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_65.png"
+  },
+  {
+    "id": 18,
+    "nombre": "PECFLY PRECOR -LM-1007",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2750,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_65 (1)-1.png"
   }
 ]
