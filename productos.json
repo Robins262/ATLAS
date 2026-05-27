@@ -207,5 +207,59 @@
     "descuento": 3900,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_67.png",
     "agotado": true
+  },
+  {
+    "id": 22,
+    "nombre": "PRESS DE HOMBRO PRECOR-LM-3004",
+    "categoria": "PRECOR",
+    "precio": 2850,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_73.png",
+    "agotado": true
+  },
+  {
+    "id": 23,
+    "nombre": "STANDING CAFL RAISE MACHINE PRECOR-LM-3018",
+    "categoria": "PRECOR",
+    "precio": 2850,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_74.png",
+    "agotado": false
+  },
+  {
+    "id": 24,
+    "nombre": "MULTI HIP PRECOR-LM-3019",
+    "categoria": "PRECOR",
+    "precio": 2850,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_74 (1).png",
+    "agotado": false
+  },
+  {
+    "id": 25,
+    "nombre": "ABDUCTOR / ADDUCTOR DUAL PRECOR-LM-3024",
+    "categoria": "PRECOR",
+    "precio": 2850,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_77.png",
+    "agotado": true
+  },
+  {
+    "id": 26,
+    "nombre": "MACHINE 3D SMITH HIPTHRUST PRECOR-LM-4004",
+    "categoria": "PRECOR",
+    "precio": 2700,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_77 (1).png",
+    "agotado": true
+  },
+  {
+    "id": 27,
+    "nombre": "5 ESTACIONES PRECOR ",
+    "categoria": "PRECOR",
+    "precio": 9900,
+    "descuento": 10000,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_89 (1).png",
+    "agotado": true
   }
 ]
