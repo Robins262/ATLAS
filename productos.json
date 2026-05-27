@@ -160,5 +160,31 @@
     "precio": 2750,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_65 (1)-1.png"
+  },
+  {
+    "id": 19,
+    "nombre": "TRICEPS PRESS PRECOR",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2650,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_63 (1).png"
+  },
+  {
+    "id": 20,
+    "nombre": "PRESS DE PECHO INCLINADO PRECOR",
+    "categoria": "PRECOR",
+    "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
+    "precio": 2750,
+    "descuento": 3200,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_65 (2).png"
+  },
+  {
+    "id": 21,
+    "nombre": "CROSS OVER PRECOR",
+    "categoria": "PRECOR",
+    "precio": 3400,
+    "descuento": 3900,
+    "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_67.png"
   }
 ]
