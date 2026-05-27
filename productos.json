@@ -387,5 +387,126 @@
     "descuento": 3200,
     "imagen": "imagenes/52410c5bba13458cb9c714609be2c986.png",
     "agotado": true
+  },
+  {
+    "id": 42,
+    "nombre": "PRENSA HACK SQUAT PRECOR",
+    "categoria": "PRECOR",
+    "precio": 3200,
+    "descuento": 3600,
+    "imagen": "imagenes/image (5).png",
+    "agotado": true
+  },
+  {
+    "id": 43,
+    "nombre": "MULTI HIP PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2680,
+    "descuento": 2900,
+    "imagen": "imagenes/ea15837deacf4430b18f8c97368e1eb5.png",
+    "agotado": false
+  },
+  {
+    "id": 44,
+    "nombre": "PEARL DELT / PEC FLY PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/29763fc23d7c4048827ab62faec55157.png",
+    "agotado": true
+  },
+  {
+    "id": 45,
+    "nombre": "ABDOMINAL CRUNCH / LOWER BACK PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2850,
+    "descuento": 3200,
+    "imagen": "imagenes/230426efcd3f4d518c04793405294419.png",
+    "agotado": false
+  },
+  {
+    "id": 46,
+    "nombre": "TRICEPS SENTADO PLANO PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2900,
+    "descuento": 3200,
+    "imagen": "imagenes/image (6).png",
+    "agotado": false
+  },
+  {
+    "id": 47,
+    "nombre": "CURL / EXTENSION DE PIERNA",
+    "categoria": "PRECOR",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/944fb4564e0c45898f68dd1cd3270f79.png",
+    "agotado": true
+  },
+  {
+    "id": 48,
+    "nombre": "BELT SQUAT MACHINE",
+    "categoria": "IMPORTADO",
+    "precio": 2280,
+    "descuento": 2600,
+    "imagen": "imagenes/7526ee47a42048e89bae44d6534715a9.png",
+    "agotado": true
+  },
+  {
+    "id": 49,
+    "nombre": "STANDING HIP MACHINE",
+    "categoria": "IMPORTADO",
+    "precio": 2280,
+    "descuento": 2600,
+    "imagen": "imagenes/82ba4f610f394f53aff125370f604238.png",
+    "agotado": true
+  },
+  {
+    "id": 50,
+    "nombre": "HIP THRUST MACHINE",
+    "categoria": "IMPORTADO",
+    "precio": 4300,
+    "descuento": 4900,
+    "imagen": "imagenes/674732ec16fb4561a4e5d111a7c77870.webp",
+    "agotado": true
+  },
+  {
+    "id": 51,
+    "nombre": "STANDING HIP THRUST MACHINE",
+    "categoria": "IMPORTADO",
+    "precio": 2280,
+    "descuento": 2600,
+    "imagen": "imagenes/b115e305879947db835d0620fdee4d80.png",
+    "agotado": true
+  },
+  {
+    "id": 52,
+    "nombre": "HIP THRUST GLUTE MACHINE PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2150,
+    "descuento": 2500,
+    "imagen": "imagenes/a1d1fc7deeb64120b77096d4041d03e3.png",
+    "agotado": false
+  },
+  {
+    "id": 53,
+    "nombre": "LEG CURL FEMORAL ACOSTADO PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/image (7).png",
+    "agotado": true
+  },
+  {
+    "id": 54,
+    "nombre": "LEG EXTENSION PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/0efb093e84a743289949c7de45572593.png",
+    "agotado": true
+  },
+  {
+    "id": 55,
+    "agotado": false
   }
 ]
