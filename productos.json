@@ -837,5 +837,23 @@
     "descuento": 3900,
     "imagen": "imagenes/5647bb5efca94dd884641753d8098889.webp",
     "agotado": true
+  },
+  {
+    "id": 82,
+    "nombre": "LEG CURL HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/fb51fbfa51c547468f4a7c627768333c.webp",
+    "agotado": true
+  },
+  {
+    "id": 93,
+    "nombre": "BICEP CURL / TRICEP EXTENSION HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/cf4d2449dcec4963b7e041ab4bcb285b.webp",
+    "agotado": true
   }
 ]
