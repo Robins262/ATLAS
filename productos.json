@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nueva",
+    "categoria": "DULCE",
+    "descripcion": "Citrico",
+    "precio": 50,
+    "descuento": 116
+  },
+  {
+    "id": 2,
+    "nombre": "Prueba",
+    "categoria": "Prueba",
+    "descripcion": "PRUEBA",
+    "precio": 50,
+    "descuento": 100,
+    "imagen": "imagenes/694678136_902662316165899_3441723813991523220_n.jpg"
+  }
+]
