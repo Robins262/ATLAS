@@ -822,6 +822,20 @@
   },
   {
     "id": 90,
+    "nombre": "CHEST PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/13c8f64696f848a28f054446d97692ef.webp",
     "agotado": false
+  },
+  {
+    "id": 91,
+    "nombre": "LEG EXTENSION HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/5647bb5efca94dd884641753d8098889.webp",
+    "agotado": true
   }
 ]
