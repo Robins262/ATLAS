@@ -17,7 +17,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_29.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "precio": 3200,
     "descuento": 3598,
     "imagen": "imagenes/image.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 4,
@@ -47,7 +47,7 @@
     "precio": 3200,
     "descuento": 3600,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_37.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "precio": 3200,
     "descuento": 3600,
     "imagen": "imagenes/image (2).png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "precio": 2200,
     "descuento": 3000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "precio": 2650,
     "descuento": 3000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41 (1).png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_53.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_53 (1).png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 12,
@@ -127,7 +127,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_49.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_50.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 15,
@@ -157,7 +157,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_63.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 17,
@@ -177,7 +177,7 @@
     "precio": 2750,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_65 (1)-1.png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 19,
@@ -206,6 +206,6 @@
     "precio": 3400,
     "descuento": 3900,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_67.png",
-    "agotado": false
+    "agotado": true
   }
 ]
