@@ -37,6 +37,7 @@ function renderizarProductos(listaParaPintar) {
         const estaAgotado = product.agotado === true;
         const textoBoton = estaAgotado ? "Agotado" : (product.botton || "Agregar");
         
+        // Estilo dinámico para poner Gris toda la tarjeta del producto si está agotado
         const estiloTarjetaGris = estaAgotado 
             ? `style="filter: grayscale(100%); opacity: 0.6; background-color: #f5f5f5;"` 
             : '';
@@ -152,6 +153,7 @@ function toggleCart() {
     document.getElementById('cartSidebar').classList.toggle('active');
 }
 
+// MUESTRA EL VENTANA MODAL DE AVISO
 function showModal(text) {
     const modalText = document.getElementById('modalText');
     const modal = document.getElementById('modal');
@@ -227,18 +229,17 @@ function checkout() {
 
     message += `\nTotal: S/ ${total.toFixed(2)}\n\n¡Gracias! ✨`;
 
+    // Ruta de la API oficial con tu número configurado correctamente
     const whatsappUrl = 'https://whatsapp.com' + encodeURIComponent(message);
 
     // Redirección forzada e inmediata
     window.location.href = whatsappUrl;
 }
 
-// 👇 NUEVO CONECTOR DE RESPALDO (ESCUCHA GLOBAL DE CLICS)
-// Captura el clic sin importar si tu botón usa un ID o una clase específica
+// ESCUCHA GLOBAL DE CLICS (Captura eventos sin importar ID o Clases del botón)
 document.addEventListener("click", function(event) {
     const target = event.target;
     
-    // Si hacen clic directamente en el botón o en un ícono dentro de él
     if (target.id === "btn-whatsapp" || target.closest("#btn-whatsapp") || target.classList.contains("btn-whatsapp") || target.closest(".btn-whatsapp")) {
         event.preventDefault();
         checkout();
