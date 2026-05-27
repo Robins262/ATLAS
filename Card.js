@@ -229,19 +229,18 @@ function checkout() {
 
     message += `\nTotal: S/ ${total.toFixed(2)}\n\n¡Gracias! ✨`;
 
-    // Ruta de la API oficial con tu número configurado correctamente
-    const whatsappUrl = 'https://whatsapp.com' + encodeURIComponent(message);
+    // Crear URL de WhatsApp correctamente
+    const whatsappUrl =
+        'https://api.whatsapp.com/send?phone=51910158797&text=' +
+        encodeURIComponent(message);
 
-    // Redirección forzada e inmediata
-    window.location.href = whatsappUrl;
+    // Abrir WhatsApp
+    window.open(whatsappUrl, '_blank');
 }
-
-// ESCUCHA GLOBAL DE CLICS (Captura eventos sin importar ID o Clases del botón)
-document.addEventListener("click", function(event) {
-    const target = event.target;
-    
-    if (target.id === "btn-whatsapp" || target.closest("#btn-whatsapp") || target.classList.contains("btn-whatsapp") || target.closest(".btn-whatsapp")) {
-        event.preventDefault();
-        checkout();
+// CONECTOR DE RESPALDO DIRECTO
+document.addEventListener("DOMContentLoaded", () => {
+    const botonEnviar = document.getElementById("btn-whatsapp");
+    if (botonEnviar) {
+        botonEnviar.onclick = checkout;
     }
 });
