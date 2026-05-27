@@ -729,5 +729,99 @@
     "descuento": 3900,
     "imagen": "imagenes/e51a2208055f45938dda31130d08c885.png",
     "agotado": true
+  },
+  {
+    "id": 80,
+    "nombre": "LEG PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/c12609ab4896467990b33e2e12cc206b.png",
+    "agotado": true
+  },
+  {
+    "id": 81,
+    "nombre": "SEATED DIP HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/1cdb9d4d0c06481ab3aaa8e50e392d54.png",
+    "agotado": true
+  },
+  {
+    "id": 82,
+    "nombre": "LOW BACK HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/c66a08a56ffa4b06930b05e3865405c1.webp",
+    "agotado": true
+  },
+  {
+    "id": 83,
+    "nombre": "CHIN DIP ASSIST HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/372cb437ef8d493db9b9fe41dda5c759.webp",
+    "agotado": true
+  },
+  {
+    "id": 84,
+    "nombre": "LATERAL AL RAISE HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/7c620c0742244011a18bb0ad24aa848f.webp",
+    "agotado": true
+  },
+  {
+    "id": 85,
+    "nombre": "PRONE LEG CURL HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/32b98e5883ad437d9e514f30796f68c8.webp",
+    "agotado": true
+  },
+  {
+    "id": 86,
+    "nombre": "SHOULDER PRESS HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/933b5e56b6cd4a79a1a119fdab962bd3.webp",
+    "agotado": true
+  },
+  {
+    "id": 87,
+    "nombre": "GLUTE MASTER HOIST ",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/20ac15a144824a4f90fe9a60bdeb93b9.webp",
+    "agotado": true
+  },
+  {
+    "id": 88,
+    "nombre": "LAT PULLDOWN HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/2260a03dfe8945ccacf6e99402f3d9c3.webp",
+    "agotado": true
+  },
+  {
+    "id": 89,
+    "nombre": "SEATED MIDORW HOIST",
+    "categoria": "HOIST",
+    "precio": 3500,
+    "descuento": 3900,
+    "imagen": "imagenes/cd84e48187544087a83759385ca95f13.webp",
+    "agotado": true
+  },
+  {
+    "id": 90,
+    "agotado": false
   }
 ]
