@@ -507,6 +507,20 @@
   },
   {
     "id": 55,
+    "nombre": "ELEVACION LATERAL PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2650,
+    "descuento": 2900,
+    "imagen": "imagenes/7a30f90b1e4b49db9fef9f322a25d3e0.png",
     "agotado": false
+  },
+  {
+    "id": 56,
+    "nombre": "PRESS DE PECHO VERTICAL PRECOR",
+    "categoria": "PRECOR",
+    "precio": 2990,
+    "descuento": 3200,
+    "imagen": "imagenes/1dfdbe741d8b480cae7ddd371979b42b.png",
+    "agotado": true
   }
 ]
