@@ -261,5 +261,86 @@
     "descuento": 10000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_89 (1).png",
     "agotado": true
+  },
+  {
+    "id": 28,
+    "nombre": "TRACCION DE ESPALDA HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2460,
+    "descuento": 2900,
+    "imagen": "imagenes/image (3).png",
+    "agotado": true
+  },
+  {
+    "id": 29,
+    "nombre": "STANDING LEG CURL HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2490,
+    "descuento": 2900,
+    "imagen": "imagenes/77a6cf3b0c234c9297984e9cb7ee7bde.png",
+    "agotado": true
+  },
+  {
+    "id": 30,
+    "nombre": "HAMMER BICEPS HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2460,
+    "descuento": 2900,
+    "imagen": "imagenes/8006232d85d146c693820fe71f84c967.png",
+    "agotado": false
+  },
+  {
+    "id": 31,
+    "nombre": "RACK PORTADISCOS ",
+    "categoria": "PRECOR",
+    "precio": 660,
+    "descuento": 900,
+    "imagen": "imagenes/17aeb118a35047b485477716d059c055.png",
+    "agotado": true
+  },
+  {
+    "id": 32,
+    "nombre": "banco olimpico sentado precor",
+    "categoria": "PRECOR",
+    "precio": 1300,
+    "descuento": 1500,
+    "imagen": "imagenes/af97ae4c066b46ecb1829e38c98479fd.webp",
+    "agotado": false
+  },
+  {
+    "id": 33,
+    "nombre": "PULLDOWN PARA ESPALDA HAMMER",
+    "categoria": "HAMMER",
+    "precio": 3450,
+    "descuento": 3900,
+    "imagen": "imagenes/image (4).png",
+    "agotado": true
+  },
+  {
+    "id": 34,
+    "nombre": "PRESS DE PECHO HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2460,
+    "descuento": 2900,
+    "imagen": "imagenes/10.jpg",
+    "agotado": true
+  },
+  {
+    "id": 35,
+    "nombre": "RESS DE PECHO INCLINADO  HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2460,
+    "descuento": 2900,
+    "imagen": "imagenes/hammer inclinado.png",
+    "agotado": true
+  },
+  {
+    "id": 36,
+    "nombre": "PRESS DE HOMBRO HAMMER",
+    "categoria": "HAMMER",
+    "precio": 2460,
+    "descuento": 2900,
+    "imagen": "imagenes/45dee785e857424ca0d67a6fd7c06fbc.png",
+    "agotado": true
   }
 ]
