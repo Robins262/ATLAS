@@ -1020,6 +1020,47 @@
   },
   {
     "id": 112,
+    "nombre": "SITTING POSTURE LOW PULL ROWING TRAINER",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/image (14).png",
+    "agotado": true
+  },
+  {
+    "id": 113,
+    "nombre": "TRANSFER THIGH STRETCH",
+    "categoria": "PANATTA",
+    "precio": 4500,
+    "descuento": 4900,
+    "imagen": "imagenes/image (15).png",
+    "agotado": true
+  },
+  {
+    "id": 114,
+    "nombre": "SITTING ROWING TRAINER",
+    "categoria": "PANATTA",
+    "precio": 4500,
+    "descuento": 4900,
+    "imagen": "imagenes/image (16).png",
+    "agotado": true
+  },
+  {
+    "id": 115,
+    "nombre": "STANDING OUTREACH",
+    "categoria": "PANATTA",
+    "precio": 4500,
+    "descuento": 4900,
+    "imagen": "imagenes/image (17).png",
     "agotado": false
+  },
+  {
+    "id": 116,
+    "nombre": "LAT PULLDOW",
+    "categoria": "IMPORTADO",
+    "precio": 2900,
+    "descuento": 3200,
+    "imagen": "imagenes/image (18).png",
+    "agotado": true
   }
 ]
