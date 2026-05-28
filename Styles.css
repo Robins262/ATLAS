@@ -82,7 +82,7 @@
             top: 0;
             z-index: 1000;
             box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            animation: slideInLeft 0.8s ease-out;
+            animation: slideInLeft 0.1s ease-out;
         }
 
         .header-content {
@@ -265,7 +265,7 @@
             border-radius: 50px;
             cursor: pointer;
             font-weight: 600;
-            transition: all 0.3s;
+            transition: all 0.1s;
             font-family: 'Poppins', sans-serif;
         }
 
