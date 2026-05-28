@@ -855,5 +855,171 @@
     "descuento": 3900,
     "imagen": "imagenes/cf4d2449dcec4963b7e041ab4bcb285b.webp",
     "agotado": true
+  },
+  {
+    "id": 94,
+    "nombre": "BANCA LIBRE REGULABLE",
+    "categoria": "PRECOR",
+    "precio": 990,
+    "descuento": 1200,
+    "imagen": "imagenes/image (9).png",
+    "agotado": true
+  },
+  {
+    "id": 95,
+    "nombre": "BANCA ABDOMINAL PRECOR",
+    "categoria": "PRECOR",
+    "precio": 1290,
+    "descuento": 1500,
+    "imagen": "imagenes/8e760496364d467ba0b604d2ba6b879b.png",
+    "agotado": true
+  },
+  {
+    "id": 96,
+    "nombre": "BANCA 90 GRADOS PRECOR",
+    "categoria": "PRECOR",
+    "precio": 455,
+    "descuento": 900,
+    "imagen": "imagenes/a8f27443194d4bf9b50d3c0e1b4a2aa6.png",
+    "agotado": true
+  },
+  {
+    "id": 97,
+    "nombre": "BANCA PLANA INDUSTRIAL",
+    "categoria": "PRECOR",
+    "precio": 460,
+    "descuento": 650,
+    "imagen": "imagenes/f2f25d101b834b6baededcdf0dc15c4e.png",
+    "agotado": true
+  },
+  {
+    "id": 98,
+    "nombre": "PANTORRILLERA SENTADO",
+    "categoria": "PRECOR",
+    "precio": 1070,
+    "descuento": 1200,
+    "imagen": "imagenes/8c9d44603a2b4012b13eec5730a70114.png",
+    "agotado": true
+  },
+  {
+    "id": 99,
+    "nombre": "BANCO DECLINADO OLIMPICO PRECOR",
+    "categoria": "PRECOR",
+    "precio": 990,
+    "descuento": 1200,
+    "imagen": "imagenes/7282a9e898d547f0b9c2ac0a8098ddfe.png",
+    "agotado": true
+  },
+  {
+    "id": 100,
+    "nombre": "BANCA PLANA OLIMPICA",
+    "categoria": "PRECOR",
+    "precio": 990,
+    "descuento": 1200,
+    "imagen": "imagenes/9973a51e31cb4489b510ac6156a9c3cd.png",
+    "agotado": true
+  },
+  {
+    "id": 101,
+    "nombre": "BANCA INCLINADA OLIMPICA",
+    "categoria": "PRECOR",
+    "precio": 990,
+    "descuento": 1200,
+    "imagen": "imagenes/bfa610fcb293472ab1b1bea4fdb221f7.png",
+    "agotado": true
+  },
+  {
+    "id": 102,
+    "nombre": "BANCO SCOTT",
+    "categoria": "PRECOR",
+    "precio": 800,
+    "descuento": 1200,
+    "imagen": "imagenes/2377fbc848514d579bb33c7791dc8b0b.png",
+    "agotado": true
+  },
+  {
+    "id": 103,
+    "nombre": "RACK DE SENTADILLAS",
+    "categoria": "PRECOR",
+    "precio": 1150,
+    "descuento": 1400,
+    "imagen": "imagenes/239473cd5cf1435ca1c6134f27acaf9c.png",
+    "agotado": true
+  },
+  {
+    "id": 104,
+    "nombre": "LEG PRESS",
+    "categoria": "IMPORTADO",
+    "precio": 3100,
+    "descuento": 3400,
+    "imagen": "imagenes/eab20d260a1648f69d228a389f12a2d5.png",
+    "agotado": true
+  },
+  {
+    "id": 105,
+    "nombre": "HIP BRIDGE MACHINE",
+    "categoria": "IMPORTADO",
+    "precio": 2650,
+    "descuento": 2900,
+    "imagen": "imagenes/0b4fa901a2d849d48cc94ca02dfe30b2.png",
+    "agotado": true
+  },
+  {
+    "id": 106,
+    "nombre": "LEG PRESS TRAINER VERTICAL",
+    "categoria": "PANATTA",
+    "precio": 4500,
+    "descuento": 4900,
+    "imagen": "imagenes/45a20e03fb2242f4bed6291d3d40ca2b.png",
+    "agotado": true
+  },
+  {
+    "id": 107,
+    "nombre": "TOWER CHEST PRESS",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/aa710637bcff4decb6374b3096680a21 (1).png",
+    "agotado": true
+  },
+  {
+    "id": 108,
+    "nombre": "PULLDOWN PANATTA",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/image (10).png",
+    "agotado": false
+  },
+  {
+    "id": 109,
+    "nombre": "HORIZONTAL ELECTION TRAINER",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/image (11).png",
+    "agotado": true
+  },
+  {
+    "id": 110,
+    "nombre": "SITTING POSTURE OUTREACH HIGH POSITION PULL-DOWN",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/image (12).png",
+    "agotado": true
+  },
+  {
+    "id": 111,
+    "nombre": "T - SHAPED ROWING TRAINER",
+    "categoria": "PANATTA",
+    "precio": 4450,
+    "descuento": 4900,
+    "imagen": "imagenes/image (13).png",
+    "agotado": false
+  },
+  {
+    "id": 112,
+    "agotado": false
   }
 ]
