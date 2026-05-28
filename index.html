@@ -55,7 +55,15 @@
             <button class="filter-btn" onclick="filterProducts('PANATTA')">PANATTA</button>
         </div>
     </section>
-
+<!-- Buscador -->
+<div class="search-container">
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Buscar productos..." 
+        onkeyup="buscarProductos()"
+    >
+</div>
     <!-- Productos -->
     <section class="products-section" >
         <div id="productos" class="productos"></div>
