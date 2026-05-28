@@ -1,27 +1,37 @@
-<!-- HEADER -->
-<header class="header">
-    <div class="header-content">
-        <!-- Logo y nombre -->
-        <a href="#" class="logo">
-            <img src="ruta-de-tu-logo.png" alt="Atlas Sport Logo">
-            <span>Atlas <strong>Sport</strong></span>
-        </a>
-
-        <!-- Navegación -->
-        <ul class="nav-links">
-            <li><a href="#" class="active">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-
-        <!-- Icono carrito -->
-        <div class="cart-icon">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="cart-count">0</span>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas sport- Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    </head>
+    <a href="https://wa.me/51910158797" target="_blank" class="whatsapp-btn">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+          <a href="#" class="logo">
+    <img src="img/logo.png" alt="Atlas Sport Logo">
+    <span>Atlas Sport</span>
+</a>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+             <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero" id="inicio">
