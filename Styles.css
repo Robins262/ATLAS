@@ -243,6 +243,28 @@
             color: var(--primary);
             font-size: 1.2rem;
         }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Tamaño del logo */
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Texto */
+.logo span {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
 
         /* ===== FILTROS ===== */
         .filters {
