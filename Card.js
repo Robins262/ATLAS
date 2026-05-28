@@ -253,7 +253,7 @@ function buscarProductos() {
         let texto = producto.innerText.toLowerCase();
 
         if (texto.includes(filtro)) {
-            producto.style.display = "block";
+            producto.style.display = "";
         } else {
             producto.style.display = "none";
         }
