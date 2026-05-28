@@ -221,7 +221,7 @@ function checkout() {
         0
     );
 
-    let message = '¡Hola! Quiero comprar las siguientes Gelatinas Artísticas de Magic Jelly:\n\n';
+    let message = '¡Hola! Quiero comprar estos productos:\n\n';
 
     cart.forEach(item => {
         message += `• ${item.name} - S/ ${item.price} x ${item.quantity}\n`;
