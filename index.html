@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas sport- Tienda Online</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="Styles.css">
-    </head>
-    <a href="https://wa.me/51910158797" target="_blank" class="whatsapp-btn">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-</a>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-          <a href="#" class="logo">
-    <img src="https://scontent.flim18-1.fna.fbcdn.net/v/t39.30808-6/241561291_112299897908598_7139990797929531412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KGip6ErV-twQ7kNvwF885Zg&_nc_oc=AdrsyNi87K55uj_UceHbnW2vSPRhocQCCVNSuLzLq3SWiffdY4EzI5u4XLqcPXcLiDi7rRYyN2CmLqxl8lzElbzj&_nc_zt=23&_nc_ht=scontent.flim18-1.fna&_nc_gid=gIBF6wRz9jOyGpnNuzGBiw&_nc_ss=7b2a8&oh=00_Af6mi2BwKE8LP4BFz6xqjB-EquD93SH9nvuHq0bKfx-iLw&oe=6A1E9914" alt="Atlas Sport Logo">
-    <span>Atlas Sport</span>
-</a>
+    <title>Atlas Sport - Equipamiento Deportivo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#D6FF00',
+                        secondary: '#FF6A00',
+                        accent: '#CC4E00',
+                        dark: '#000000',
+                        darkgray: '#121212',
+                        lightgray: '#2A2A2A',
+                        white: '#FFFFFF',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        playfair: ['Playfair Display', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 0 10px rgba(214, 255, 0, 0.5);
+            }
+            .glow {
+                box-shadow: 0 0 8px rgba(214, 255, 0, 0.4);
+            }
+            .glow-hover:hover {
+                box-shadow: 0 0 15px rgba(214, 255, 0, 0.6);
+            }
+        }
+    </style>
+</head>
+<body class="bg-dark text-white font-poppins">
+
+<!-- HEADER IDÉNTICO -->
+<header class="bg-dark py-4 px-6 fixed w-full top-0 z-50 border-b border-primary/10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo y Nombre -->
+        <a href="#" class="flex items-center gap-3">
+            <img src="https://i.imgur.com/8Z7X8QH.png" alt="Atlas Sport Logo" class="w-14 h-14 object-contain">
+            <span class="text-[clamp(1.5rem,3vw,2rem)] font-bold">Atlas <strong class="text-primary">Sport</strong></span>
+        </a>
             </a>
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
