@@ -1,13 +1,13 @@
 
         :root {
-            --primary: #ff6b9d;
-            --secondary: #c44569;
-            --accent: #f8b500;
-            --dark: #2d132c;
-            --light: #fff0f5;
-            --white: #ffffff;
-            --shadow: rgba(0,0,0,0.1);
-        }
+    --primary: #D6FF00;      /* verde neón */
+    --secondary: #FF6A00;    /* naranja */
+    --accent: #CC4E00;       /* naranja oscuro */
+    --dark: #0A0A0A;         /* negro */
+    --light: #1E1E1E;        /* gris oscuro */
+    --white: #F5F5F5;        /* texto claro */
+    --shadow: rgba(0,0,0,0.35);
+}
 
         * {
             margin: 0;
@@ -16,11 +16,17 @@
         }
 
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #fff0f5 100%);
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        135deg,
+        #0A0A0A 0%,
+        #1A0B00 40%,
+        #2B1200 70%,
+        #0A0A0A 100%
+    );
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 
         /* ===== ANIMACIONES ===== */
         @keyframes float {
