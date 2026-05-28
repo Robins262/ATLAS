@@ -843,3 +843,7 @@
 .whatsapp-btn:hover {
     transform: scale(1.1);
 }
+.product-card {
+    animation: none !important;
+    transition: none !important;
+}
