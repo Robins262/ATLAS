@@ -170,7 +170,7 @@
         .hero {
             margin-top: 80px;
             padding: 4rem 2rem;
-            text-align: left;
+            text-align: center;
             background: linear-gradient(135deg, rgba(255,107,157,0.1) 0%, rgba(196,69,105,0.1) 100%);
             position: relative;
             overflow: hidden;
