@@ -297,13 +297,11 @@
     overflow: hidden;
     box-shadow: 0 10px 30px var(--shadow);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    opacity: 0;
-    animation: slideInUp 0.6s ease-out forwards;
     position: relative;
 
     width: 100%;
     max-width: 320px;
-    min-height: 560px;
+    min-height: 620px;
 
     display: flex;
     flex-direction: column;
@@ -355,11 +353,12 @@
             transform: scale(1.1);
         }
 
-       .product-info {
+.product-info {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     flex: 1;
+    text-align: left;
 }
 
         .product-category {
@@ -385,10 +384,12 @@
             line-height: 1.5;
         }
 
-      .product-footer {
+  .product-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: auto;
+    width: 100%;
 }
 
         .product-price {
@@ -405,24 +406,28 @@
         }
 
         .add-to-cart {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: all 0.3s;
-            animation: glow 2s infinite;
-        }
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
 
-        .add-to-cart:hover {
-            transform: scale(1.1);
-            box-shadow: 0 5px 20px rgba(255,107,157,0.5);
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: all 0.3s ease;
+    animation: glow 2s infinite;
+}
+       .add-to-cart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255,107,157,0.4);
+}
 
         .add-to-cart:active {
             transform: scale(0.95);
