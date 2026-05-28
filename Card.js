@@ -60,7 +60,7 @@ function renderizarProductos(listaParaPintar) {
                         <h3 class="product-name">${product.nombre || 'Sin Nombre'}</h3>
                         <p class="product-description">${product.descripcion || 'Sin descripción'}</p>
                         <div class="product-footer">
-                            <div class="product-price">S/ ${precioVenta}<span>S/ ${precioDescuento}</span></div>
+                            <div class="product-price"> S/${precioVenta}<span> S/${precioDescuento}</span></div>
                             <button class="add-to-cart" ${atributosBoton}>
                                 ${iconoBoton}
                                 ${textoBoton}
