@@ -246,14 +246,30 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function buscarProductos() {
     let input = document.getElementById("searchInput");
-    let filtro = input.value.toLowerCase();
+    let filtro = input.value.toLowerCase().trim();
+
     let productos = document.querySelectorAll(".product-card");
 
-    productos.forEach(producto => {
-        let texto = producto.innerText.toLowerCase();
+    productos.forEach((producto, index) => {
 
-        if (texto.includes(filtro)) {
+        let nombre = producto.querySelector(".product-name")
+            ?.innerText.toLowerCase() || "";
+
+        let descripcion = producto.querySelector(".product-description")
+            ?.innerText.toLowerCase() || "";
+
+        let categoria = producto.querySelector(".product-category")
+            ?.innerText.toLowerCase() || "";
+
+        let textoCompleto =
+            nombre + " " +
+            descripcion + " " +
+            categoria;
+
+        if (textoCompleto.includes(filtro)) {
             producto.style.display = "";
+            producto.style.animation =
+                `slideInUp 0.4s ease-out ${index * 0.05}s both`;
         } else {
             producto.style.display = "none";
         }
