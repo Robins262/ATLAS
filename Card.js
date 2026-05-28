@@ -244,3 +244,18 @@ document.addEventListener("DOMContentLoaded", () => {
         botonEnviar.onclick = checkout;
     }
 });
+function buscarProductos() {
+    let input = document.getElementById("searchInput");
+    let filtro = input.value.toLowerCase();
+    let productos = document.querySelectorAll(".product-card");
+
+    productos.forEach(producto => {
+        let texto = producto.innerText.toLowerCase();
+
+        if (texto.includes(filtro)) {
+            producto.style.display = "block";
+        } else {
+            producto.style.display = "none";
+        }
+    });
+}
