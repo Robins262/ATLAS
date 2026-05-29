@@ -7,7 +7,7 @@
     "precio": 2990,
     "descuento": 3199,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_89.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 2,
@@ -24,10 +24,10 @@
     "nombre": "POLEA ALTA CON REMO PRECOR - LM-1078",
     "categoria": "PRECOR",
     "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
-    "precio": 3200,
+    "precio": 2680,
     "descuento": 3598,
     "imagen": "imagenes/image.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 4,
@@ -64,30 +64,30 @@
     "nombre": "SMITH MACHINE PRECOR-LM-1063",
     "categoria": "PRECOR",
     "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
-    "precio": 3200,
+    "precio": 3160,
     "descuento": 3600,
     "imagen": "imagenes/image (2).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 8,
     "nombre": "PRENSA PENDULO PARADO PRECOR-LM-1065",
     "categoria": "PRECOR",
     "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
-    "precio": 2200,
+    "precio": 2250,
     "descuento": 3000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 9,
     "nombre": "DIP/CHIN ASSIST PRECOR-LM-1040",
     "categoria": "PRECOR",
     "descripcion": "Maquina con 80kg en bloques\nEspesor 3mm\nGarantía 1 año",
-    "precio": 2650,
+    "precio": 2660,
     "descuento": 3000,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_41 (1).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
     "precio": 2650,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_49.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 14,
