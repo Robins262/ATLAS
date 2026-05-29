@@ -1052,7 +1052,7 @@
     "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (17).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 116,
@@ -1070,6 +1070,44 @@
     "precio": 3070,
     "descuento": 3500,
     "imagen": "imagenes/VT-09_AYFjkAYAgSisRRpxAYQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 118,
+    "nombre": "ESTACION ABDOMINAL (LM-1047)",
+    "categoria": "PRECOR",
+    "precio": 1120,
+    "descuento": 1500,
+    "imagen": "imagenes/LM-1047_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 119,
+    "nombre": "PORTA DISCO VERTICAL (LM-1054)",
+    "categoria": "PRECOR",
+    "precio": 450,
+    "descuento": 900,
+    "imagen": "imagenes/LM-1054_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 120,
+    "nombre": "RACK PORTA BARRAS (LM-1055)",
+    "categoria": "PRECOR",
+    "precio": 840,
+    "descuento": 990,
+    "imagen": "imagenes/LM-1055_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 121,
+    "nombre": "LATERAL LOW ROW (LM-2002)",
+    "precio": 2660,
+    "descuento": 2900,
+    "imagen": "imagenes/LM-2002_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
     "agotado": false
   }
 ]
