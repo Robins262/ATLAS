@@ -968,25 +968,25 @@
     "id": 106,
     "nombre": "LEG PRESS TRAINER VERTICAL",
     "categoria": "PANATTA",
-    "precio": 4500,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/45a20e03fb2242f4bed6291d3d40ca2b.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 107,
     "nombre": "TOWER CHEST PRESS",
     "categoria": "PANATTA",
-    "precio": 4450,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/aa710637bcff4decb6374b3096680a21 (1).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 108,
     "nombre": "PULLDOWN PANATTA",
     "categoria": "PANATTA",
-    "precio": 4450,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (10).png",
     "agotado": false
@@ -995,19 +995,19 @@
     "id": 109,
     "nombre": "HORIZONTAL ELECTION TRAINER",
     "categoria": "PANATTA",
-    "precio": 4450,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (11).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 110,
     "nombre": "SITTING POSTURE OUTREACH HIGH POSITION PULL-DOWN",
     "categoria": "PANATTA",
-    "precio": 4450,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (12).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 111,
@@ -1049,10 +1049,10 @@
     "id": 115,
     "nombre": "STANDING OUTREACH",
     "categoria": "PANATTA",
-    "precio": 4500,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (17).png",
-    "agotado": false
+    "agotado": true
   },
   {
     "id": 116,
