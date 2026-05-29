@@ -1,72 +1,45 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas sport- Tienda Online</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-    <!-- Botón de WhatsApp Fijo -->
-    <a href="https://wa.me/51910158797" target="_blank" class="whatsapp-btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-    </a>
+<!-- HEADER -->
+<header class="header">
+    <div class="header-content">
+        <!-- Logo y nombre -->
+        <a href="#" class="logo">
+            <img src="ruta-de-tu-logo.png" alt="Atlas Sport Logo">
+            <span>Atlas <strong>Sport</strong></span>
+        </a>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-content">
-            <a href="#" class="logo">
-                <img src="img/logo.png" alt="Atlas Sport Logo">
-                <span>Atlas <strong>Sport</strong></span>
-            </a>
+        <!-- Navegación -->
+        <ul class="nav-links">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
 
-            <ul class="nav-links">
-                <li><a href="#inicio" class="active">Inicio</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#ofertas">Ofertas</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-
-            <div class="cart-icon" onclick="toggleCart()">
-                <i class="fas fa-shopping-bag"></i>
-                <span class="cart-count" id="cartCount">0</span>
-            </div>
+        <!-- Icono carrito -->
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
         </div>
-    </header>
-    <!-- HERO SECTION -->
+    </div>
+</header>
+
+    <!-- Hero Section -->
     <section class="hero" id="inicio">
-        <h1>FUERZA<br><span>DISCIPLINA</span><br>SUPERACIÓN</h1>
-        <p>Equipamiento de calidad para atletas de alto rendimiento.</p>
-        <button class="hero-btn">VER PRODUCTOS <i class="fas fa-arrow-right"></i></button>
-        
+        <h1>Bienvenida a <span>Atlas Sport</span></h1>
+        <p>Descubre nuestro mundo de sabores inolvidables.</p>
         <div class="hero-badges">
             <div class="badge">
                 <i class="fas fa-truck"></i>
-                <div>
-                    <p>ENVÍO GRATIS</p>
-                    <p>En compras mayores a $50</p>
-                </div>
+                Envío Delivery Costo adicional
             </div>
             <div class="badge">
                 <i class="fas fa-shield-alt"></i>
-                <div>
-                    <p>PAGOS SEGUROS</p>
-                    <p>Compra 100% segura</p>
-                </div>
-            </div>
-            <div class="badge">
-                <i class="fas fa-headphones"></i>
-                <div>
-                    <p>ATENCIÓN 24/7</p>
-                    <p>Soporte personalizado</p>
-                </div>
+                Pago Seguro
             </div>
         </div>
     </section>
 
-    <!-- FILTROS DE CATEGORÍAS -->
+    <!-- Filtros -->
     <section class="filters">
         <div class="filter-buttons">
             <button class="filter-btn active" onclick="filterProducts('todos')">Todos</button>
@@ -75,26 +48,24 @@
             <button class="filter-btn" onclick="filterProducts('HOIST')">HOIST</button>
             <button class="filter-btn" onclick="filterProducts('PANATTA')">PANATTA</button>
             <button class="filter-btn" onclick="filterProducts('IMPORTADO')">IMPORTADO</button>
+
         </div>
     </section>
-    <!-- BUSCADOR -->
-    <div class="search-container">
-        <input 
-            type="text" 
-            id="searchInput" 
-            placeholder="Buscar productos..." 
-            onkeyup="buscarProductos()"
-        >
-    </div>
-
-    <!-- PRODUCTOS -->
-    <section class="products-section" id="productos">
-        <h2 class="section-title">PRODUCTOS DESTACADOS 
-            <a href="#" class="ver-todos">Ver todos <i class="fas fa-arrow-right"></i></a>
-        </h2>
+<!-- Buscador -->
+<div class="search-container">
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Buscar productos..." 
+        onkeyup="buscarProductos()"
+    >
+</div>
+    <!-- Productos -->
+    <section class="products-section" >
         <div id="productos" class="productos"></div>
     </section>
-    <!-- CARRITO SIDEBAR -->
+
+    <!-- Carrito Sidebar -->
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
             <h2><i class="fas fa-shopping-bag"></i> Tu Carrito</h2>
@@ -120,7 +91,7 @@
         </div>
     </div>
 
-    <!-- MODAL DE CONFIRMACIÓN -->
+    <!-- Modal -->
     <div class="modal-overlay" id="modal">
         <div class="modal">
             <button class="modal-close" onclick="closeModal()">
@@ -135,34 +106,50 @@
         </div>
     </div>
 
-    <!-- CONTENEDOR DE CONFETI -->
+    <!-- Confetti Container -->
     <div class="confetti-container" id="confettiContainer"></div>
-    <!-- FOOTER -->
+
+    <!-- Footer -->
     <footer class="footer" id="contacto">
         <div class="footer-content">
             <div class="footer-section">
-                <h3><i class="fas fa-dumbbell"></i> MÁXIMA CALIDAD</h3>
-                <p>Productos 100% originales</p>
+                <h3><i class="fas fa-crown"></i> Mujer Fitness Shop</h3>
+                <p>Tu tienda de confianza para productos de fitness y diseños exclusivos inspirados en Paisajes y fantasía.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
             </div>
             <div class="footer-section">
-                <h3><i class="fas fa-certificate"></i> GARANTÍA TOTAL</h3>
-                <p>30 días de garantía</p>
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="#inicio">Inicio</a></p>
+                <p><a href="#productos">Productos</a></p>
+                <p><a href="#ofertas">Ofertas</a></p>
+                <p><a href="#contacto">Contacto</a></p>
             </div>
             <div class="footer-section">
-                <h3><i class="fas fa-trophy"></i> MEJORES MARCAS</h3>
-                <p>Solo trabajamos con líderes</p>
+                <h3>Información</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Lima, Perú</p>
+                <p><i class="fas fa-phone"></i> +51 910 158 797</p>
+                <p><i class="fas fa-envelope"></i> </p>
+                <p><i class="fas fa-clock"></i> Lun - Sáb: 9am - 8pm</p>
             </div>
             <div class="footer-section">
-                <h3><i class="fas fa-bolt"></i> RESULTADOS REALES</h3>
-                <p>Para atletas como tú</p>
+                <h3>Métodos de Pago</h3>
+                <p><i class="fas fa-money-bill-wave"></i> Efectivo</p>
+                <p><i class="fas fa-university"></i> Transferencia Bancaria</p>
+                <p><i class="fas fa-mobile-alt"></i> Yape / Plin</p>
+                <p><i class="fas fa-credit-card"></i> Tarjeta de Crédito</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Atlas Sport. Todos los derechos reservados.</p>
+            <p> 2026 Atlas Sport. Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <!-- ARCHIVO DE FUNCIONES -->
     <script src="Card.js"></script>
+ 
 </body>
 </html>
