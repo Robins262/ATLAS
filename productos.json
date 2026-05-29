@@ -1022,10 +1022,10 @@
     "id": 112,
     "nombre": "SITTING POSTURE LOW PULL ROWING TRAINER",
     "categoria": "PANATTA",
-    "precio": 4450,
+    "precio": 4400,
     "descuento": 4900,
     "imagen": "imagenes/image (14).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 113,
@@ -1040,10 +1040,10 @@
     "id": 114,
     "nombre": "SITTING ROWING TRAINER",
     "categoria": "PANATTA",
-    "precio": 4500,
+    "precio": 4600,
     "descuento": 4900,
     "imagen": "imagenes/image (16).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 115,
@@ -1114,6 +1114,33 @@
     "precio": 750,
     "descuento": 990,
     "imagen": "imagenes/LM-1045_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 123,
+    "nombre": "HORIZONTAL BENCH PRESS (LM-6004)",
+    "categoria": "PANATTA",
+    "precio": 4400,
+    "descuento": 4900,
+    "imagen": "imagenes/LM-6004_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 124,
+    "nombre": "INCLINE BENCH PRESS (LM-6019)",
+    "categoria": "PANATTA",
+    "precio": 4400,
+    "descuento": 4900,
+    "imagen": "imagenes/LM-6019_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
+    "agotado": false
+  },
+  {
+    "id": 125,
+    "nombre": "SEATED ROW (LM-6006)",
+    "categoria": "PANATTA",
+    "precio": 4400,
+    "descuento": 4900,
+    "imagen": "imagenes/LM-6006_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
     "agotado": false
   }
 ]
