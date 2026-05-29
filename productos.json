@@ -239,10 +239,10 @@
     "id": 25,
     "nombre": "ABDUCTOR / ADDUCTOR DUAL PRECOR-LM-3024",
     "categoria": "PRECOR",
-    "precio": 2850,
+    "precio": 2900,
     "descuento": 3200,
     "imagen": "imagenes/MAQUINAS INDUSTRIALES ENERO (2).pdf_77.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 26,
@@ -266,10 +266,10 @@
     "id": 28,
     "nombre": "TRACCION DE ESPALDA HAMMER",
     "categoria": "HAMMER",
-    "precio": 2460,
+    "precio": 2390,
     "descuento": 2900,
     "imagen": "imagenes/image (3).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 29,
@@ -320,19 +320,19 @@
     "id": 34,
     "nombre": "PRESS DE PECHO HAMMER",
     "categoria": "HAMMER",
-    "precio": 2460,
+    "precio": 2390,
     "descuento": 2900,
     "imagen": "imagenes/10.jpg",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 35,
     "nombre": "RESS DE PECHO INCLINADO  HAMMER",
     "categoria": "HAMMER",
-    "precio": 2460,
+    "precio": 2390,
     "descuento": 2900,
     "imagen": "imagenes/hammer inclinado.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 36,
@@ -347,10 +347,10 @@
     "id": 37,
     "nombre": "REMO SENTADO HAMMER",
     "categoria": "HAMMER",
-    "precio": 2600,
+    "precio": 2390,
     "descuento": 2900,
     "imagen": "imagenes/WhatsApp_Image_2024-09-20_at_3.43.00_PM-removebg-preview.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 38,
@@ -392,10 +392,10 @@
     "id": 42,
     "nombre": "PRENSA HACK SQUAT PRECOR",
     "categoria": "PRECOR",
-    "precio": 3200,
+    "precio": 2950,
     "descuento": 3600,
     "imagen": "imagenes/image (5).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 43,
@@ -410,10 +410,10 @@
     "id": 44,
     "nombre": "PEARL DELT / PEC FLY PRECOR",
     "categoria": "PRECOR",
-    "precio": 2990,
+    "precio": 2770,
     "descuento": 3200,
     "imagen": "imagenes/29763fc23d7c4048827ab62faec55157.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 45,
@@ -464,10 +464,10 @@
     "id": 50,
     "nombre": "HIP THRUST MACHINE",
     "categoria": "IMPORTADO",
-    "precio": 4300,
+    "precio": 4250,
     "descuento": 4900,
     "imagen": "imagenes/674732ec16fb4561a4e5d111a7c77870.webp",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 51,
@@ -860,19 +860,19 @@
     "id": 94,
     "nombre": "BANCA LIBRE REGULABLE",
     "categoria": "PRECOR",
-    "precio": 990,
+    "precio": 800,
     "descuento": 1200,
     "imagen": "imagenes/image (9).png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 95,
     "nombre": "BANCA ABDOMINAL PRECOR",
     "categoria": "PRECOR",
-    "precio": 1290,
+    "precio": 900,
     "descuento": 1500,
     "imagen": "imagenes/8e760496364d467ba0b604d2ba6b879b.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 96,
@@ -881,25 +881,25 @@
     "precio": 455,
     "descuento": 900,
     "imagen": "imagenes/a8f27443194d4bf9b50d3c0e1b4a2aa6.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 97,
     "nombre": "BANCA PLANA INDUSTRIAL",
     "categoria": "PRECOR",
-    "precio": 460,
+    "precio": 450,
     "descuento": 650,
     "imagen": "imagenes/f2f25d101b834b6baededcdf0dc15c4e.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 98,
     "nombre": "PANTORRILLERA SENTADO",
     "categoria": "PRECOR",
-    "precio": 1070,
+    "precio": 1050,
     "descuento": 1200,
     "imagen": "imagenes/8c9d44603a2b4012b13eec5730a70114.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 99,
@@ -908,7 +908,7 @@
     "precio": 990,
     "descuento": 1200,
     "imagen": "imagenes/7282a9e898d547f0b9c2ac0a8098ddfe.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 100,
@@ -917,16 +917,16 @@
     "precio": 990,
     "descuento": 1200,
     "imagen": "imagenes/9973a51e31cb4489b510ac6156a9c3cd.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 101,
     "nombre": "BANCA INCLINADA OLIMPICA",
     "categoria": "PRECOR",
-    "precio": 990,
+    "precio": 950,
     "descuento": 1200,
     "imagen": "imagenes/bfa610fcb293472ab1b1bea4fdb221f7.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 102,
@@ -935,7 +935,7 @@
     "precio": 800,
     "descuento": 1200,
     "imagen": "imagenes/2377fbc848514d579bb33c7791dc8b0b.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 103,
@@ -959,10 +959,10 @@
     "id": 105,
     "nombre": "HIP BRIDGE MACHINE",
     "categoria": "IMPORTADO",
-    "precio": 2650,
+    "precio": 2450,
     "descuento": 2900,
     "imagen": "imagenes/0b4fa901a2d849d48cc94ca02dfe30b2.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 106,
@@ -1108,6 +1108,12 @@
     "agotado": false
   },
   {
+    "id": 122,
+    "nombre": "EXTENSION TRASERA (LM-1045)",
+    "categoria": "IMPORTADO",
+    "precio": 750,
+    "descuento": 990,
+    "imagen": "imagenes/LM-1045_QRFjkQRAgSisRRpxQRQIpsk.jpeg",
     "agotado": false
   }
 ]
