@@ -1062,5 +1062,14 @@
     "descuento": 3200,
     "imagen": "imagenes/image (18).png",
     "agotado": true
+  },
+  {
+    "id": 117,
+    "nombre": "PRENSA PENDULO HAMMER (LM-5010)",
+    "categoria": "HAMMER",
+    "precio": 3070,
+    "descuento": 3500,
+    "imagen": "imagenes/VT-09_AYFjkAYAgSisRRpxAYQIpsk.jpeg",
+    "agotado": false
   }
 ]
