@@ -698,10 +698,10 @@
     "id": 76,
     "nombre": "LAT PULLDOWN / MID ROW HOIST",
     "categoria": "HOIST",
-    "precio": 3500,
+    "precio": 3600,
     "descuento": 3900,
     "imagen": "imagenes/fc0e477c5954419db2ac7c4fc65b32fe.png",
-    "agotado": true
+    "agotado": false
   },
   {
     "id": 77,
