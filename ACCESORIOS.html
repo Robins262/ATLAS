@@ -2,13 +2,146 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Accesorios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios - Atlas sport</title>
+    <!-- Mismas fuentes y estilos que index.html -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <h1>Bienvenido a Acesorios</h1>
-    <p>Has tu pedido Aqui!.</p>
-    
-    <!-- Enlace para volver a la página principal -->
-    <a href="index.html">Volver al Inicio</a>
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me" target="_blank" class="whatsapp-btn">
+        <img src="https://flaticon.com" alt="WhatsApp">
+    </a>
+
+    <!-- Header (Menu de Navegación Idéntico) -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="https://fbcdn.net" alt="Atlas Sport Logo">
+                <span>Atlas Sport</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#productos">Maquinarias</a></li>
+                <li><a href="accesorios.html" class="active">Accesorios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <!-- Icono del Carrito (Mantiene la función toggleCart) -->
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section para la sección de Accesorios -->
+    <section class="hero" id="inicio" style="background-image: url('https://pinimg.com'); background-size: cover; background-position: center; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1;"></div>
+        <div style="position: relative; z-index: 2;">
+            <h1>Sección de <span>Accesorios</span></h1>
+            <p>¡Complementa tu entrenamiento con lo mejor!.</p>
+        </div>
+    </section>
+
+    <!-- Buscador Dinámico (Mantiene la función buscarProductos) -->
+    <div class="search-container" style="margin-top: 40px;">
+        <input type="text" id="searchInput" placeholder="Buscar accesorios..." onkeyup="buscarProductos()">
+    </div>
+
+    <!-- Sección donde JavaScript cargará tus Accesorios -->
+    <section class="products-section">
+        <div id="productos" class="productos"></div>
+    </section>
+
+    <!-- Carrito Sidebar (Idéntico para mantener el estado de compras) -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2><i class="fas fa-shopping-bag"></i> Tu Carrito</h2>
+            <button class="close-cart" onclick="toggleCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-bag"></i>
+                <p>Tu carrito está vacío</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">S/ 0.00</span>
+            </div>
+            <button class="checkout-btn" onclick="checkout()">
+                <i class="fab fa-whatsapp"></i>
+                Comprar por WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmación -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>¡Agregado al carrito!</h3>
+            <p id="modalText">El producto se ha agregado exitosamente.</p>
+            <button class="modal-btn" onclick="closeModal()">Continuar comprando</button>
+        </div>
+    </div>
+
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Footer Idéntico -->
+    <footer class="footer" id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-crown"></i> Mujer Fitness Shop</h3>
+                <p>Tu tienda de confianza para productos de fitness y diseños exclusivos inspirados en Paisajes y fantasía.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="index.html#inicio">Inicio</a></p>
+                <p><a href="index.html#productos">Maquinarias</a></p>
+                <p><a href="accesorios.html">Accesorios</a></p>
+                <p><a href="#contacto">Contacto</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Información</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Lima, Perú</p>
+                <p><i class="fas fa-phone"></i> +51 910 158 797</p>
+                <p><i class="fas fa-envelope"></i> </p>
+                <p><i class="fas fa-clock"></i> Lun - Sáb: 9am - 8pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Métodos de Pago</h3>
+                <p><i class="fas fa-money-bill-wave"></i> Efectivo</p>
+                <p><i class="fas fa-university"></i> Transferencia Bancaria</p>
+                <p><i class="fas fa-mobile-alt"></i> Yape / Plin</p>
+                <p><i class="fas fa-credit-card"></i> Tarjeta de Crédito</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Atlas Sport. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Vinculación del mismo archivo JavaScript de funciones de tarjeta y carrito -->
+    <script src="Card.js"></script>
 </body>
 </html>
