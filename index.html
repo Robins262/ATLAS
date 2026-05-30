@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas sport- Tienda Online</title>
+    <title>Atlas sport - Tienda Online</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="Styles.css">
-    </head>
-    <a href="https://wa.me/51910158797" target="_blank" class="whatsapp-btn">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-</a>
+</head>
 <body>
-    <a href="accesorios.html">Ir a accesorios</a>
+
+    <!-- El botón de WhatsApp ahora está correctamente al inicio del body -->
+    <a href="https://wa.me/51910158797" target="_blank" class="whatsapp-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="https://scontent.flim23-1.fna.fbcdn.net/v/t39.30808-6/241561291_112299897908598_7139990797929531412_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=nm16AtvTLJEQ7kNvwGAVdgW&_nc_oc=AdrlLGn1NlxwkAP_yuqYKB9v6SK0al-OWqVP_M30PYsw6YvV9_GfzEp1xzqyyWXok1Mra380XHlKJOtzDmWdKAcp&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=QjfrLieN-WJ5qHSuCTZU6A&_nc_ss=7b289&oh=00_Af6yqtDo0o_5IgoXcyPM69o9J5fdsVdD52JWiZrecqPagw&oe=6A1ED154" alt="Atlas Sport Logo">
+                <span>Atlas Sport</span>
+            </a>
+            
+            <!-- Tu menú de navegación con la nueva página incluida de forma estética -->
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#productos">Maquinarias</a></li>
+                <li><a href="accesorios.html">Accesorios</a></li> <!-- AQUÍ QUEDA PERFECTO -->
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
     <!-- Header -->
     <header class="header">
         <div class="header-content">
