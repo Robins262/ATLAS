@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accesorios - Atlas sport</title>
-    <!-- Mismas fuentes y estilos que index.html -->
-    <link href="https://googleapis.com" rel="stylesheet">
-    <link rel="stylesheet" href="https://cloudflare.com">
+    <title>Atlas sport - Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
@@ -39,26 +38,48 @@
         </div>
     </header>
 
-    <!-- Hero Section para la sección de Accesorios -->
-    <section class="hero" id="inicio" style="background-image: url('https://pinimg.com'); background-size: cover; background-position: center; position: relative;">
+    <!-- Hero Section -->
+    <section class="hero" id="inicio" style="background-image: url('https://i.pinimg.com/736x/41/5c/88/415c885ccf51aa07009382f81846326a.jpg'); background-size: cover; background-position: center; position: relative;">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1;"></div>
         <div style="position: relative; z-index: 2;">
-            <h1>Sección de <span>Accesorios</span></h1>
-            <p>¡Complementa tu entrenamiento con lo mejor!.</p>
+            <h1>Bienvenida a <span>Atlas Sport</span></h1>
+            <p>Haz tu pedido!.</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <i class="fas fa-truck"></i>
+                    Envío Delivery Costo adicional
+                </div>
+                <div class="badge">
+                    <i class="fas fa-shield-alt"></i>
+                    Pago Seguro
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Buscador Dinámico (Mantiene la función buscarProductos) -->
-    <div class="search-container" style="margin-top: 40px;">
-        <input type="text" id="searchInput" placeholder="Buscar accesorios..." onkeyup="buscarProductos()">
+    <!-- Filtros -->
+    <section class="filters">
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterProducts('todos')">Todos</button>
+            <button class="filter-btn" onclick="filterProducts('PRECOR')">PRECOR</button>
+            <button class="filter-btn" onclick="filterProducts('HAMMER')">HAMMER</button>
+            <button class="filter-btn" onclick="filterProducts('HOIST')">HOIST</button>
+            <button class="filter-btn" onclick="filterProducts('PANATTA')">PANATTA</button>
+            <button class="filter-btn" onclick="filterProducts('IMPORTADO')">IMPORTADO</button>
+        </div>
+    </section>
+
+    <!-- Buscador -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar productos..." onkeyup="buscarProductos()">
     </div>
 
-    <!-- Sección donde JavaScript cargará tus Accesorios -->
+    <!-- Productos -->
     <section class="products-section">
         <div id="productos" class="productos"></div>
     </section>
 
-    <!-- Carrito Sidebar (Idéntico para mantener el estado de compras) -->
+    <!-- Carrito Sidebar -->
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
             <h2><i class="fas fa-shopping-bag"></i> Tu Carrito</h2>
@@ -84,7 +105,7 @@
         </div>
     </div>
 
-    <!-- Modal de Confirmación -->
+    <!-- Modal -->
     <div class="modal-overlay" id="modal">
         <div class="modal">
             <button class="modal-close" onclick="closeModal()">
@@ -99,9 +120,10 @@
         </div>
     </div>
 
+    <!-- Confetti Container -->
     <div class="confetti-container" id="confettiContainer"></div>
 
-    <!-- Footer Idéntico -->
+    <!-- Footer -->
     <footer class="footer" id="contacto">
         <div class="footer-content">
             <div class="footer-section">
@@ -141,7 +163,6 @@
         </div>
     </footer>
 
-    <!-- Vinculación del mismo archivo JavaScript de funciones de tarjeta y carrito -->
     <script src="Card.js"></script>
 </body>
 </html>
