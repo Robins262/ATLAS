@@ -70,3 +70,191 @@ function renderizarProductos(listaParaPintar) {
         `;
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 4. LÓGICA DE TU CARRITO DE COMPRAS
+let cart = [];
+
+function addToCart(id, name, price, image) {
+    const existingItem = cart.find(item => item.id === id);
+    if (existingItem) {
+        existingItem.quantity++;
+    } else {
+        cart.push({ id, name, price, image, quantity: 1 });
+    }
+    updateCart();
+    showModal(`¡${name} agregado al carrito!`);
+    createConfetti();
+}
+
+function removeFromCart(id) {
+    cart = cart.filter(item => item.id !== id);
+    updateCart();
+}
+
+function updateCart() {
+    const cartItems = document.getElementById('cartItems');
+    const cartCount = document.getElementById('cartCount');
+    const cartTotal = document.getElementById('cartTotal');
+    
+    if (!cartItems || !cartCount || !cartTotal) return;
+
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+
+    cartCount.textContent = totalItems;
+    cartTotal.textContent = `S/ ${totalPrice.toFixed(2)}`;
+
+    if (cart.length === 0) {
+        cartItems.innerHTML = `
+        <div class="cart-empty">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Tu carrito está vacío</p>
+        </div>
+        `;
+    } else {
+        cartItems.innerHTML = cart.map(item => `
+        <div class="cart-item">
+            <img src="${item.image}" alt="${item.name}" onerror="this.onerror=null; this.src='https://placehold.co/80x80'">
+            <div class="cart-item-info">
+                <div class="cart-item-name">${item.name}</div>
+                <div class="cart-item-price">S/ ${item.price} x ${item.quantity}</div>
+            </div>
+            <button class="remove-item" onclick="removeFromCart(${item.id})">
+                <i class="fas fa-trash"></i>
+            </button>
+        </div>
+        `).join('');
+    }
+}
+function toggleCart() {
+    document.getElementById('cartSidebar').classList.toggle('active');
+}
+
+// MUESTRA EL VENTANA MODAL DE AVISO
+function showModal(text) {
+    const modalText = document.getElementById('modalText');
+    const modal = document.getElementById('modal');
+    if (modalText && modal) {
+        modalText.textContent = text;
+        modal.classList.add('active');
+    }
+}
+
+function closeModal() {
+    const modal = document.getElementById('modal');
+    if (modal) modal.classList.remove('active');
+}
+
+function createConfetti() {
+    const container = document.getElementById('confettiContainer');
+    if (!container) return;
+    const colors = ['#ff6b9d', '#c44569', '#f8b500', '#ff6b6b', '#5f27cd', '#00d2d3'];
+    
+    for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.animationDelay = Math.random() * 2 + 's';
+        confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+        container.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 3000);
+    }
+}
+
+function filterProducts(category) {
+    const cards = document.querySelectorAll('.product-card');
+    const buttons = document.querySelectorAll('.filter-btn');
+    
+    buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if(btn.textContent.trim().toLowerCase() === category.toLowerCase() || (category === 'todos' && btn.textContent.trim().toLowerCase() === 'todos')) {
+            btn.classList.add('active');
+        }
+    });
+
+    cards.forEach((card, index) => {
+        const cardCategory = card.dataset.category ? card.dataset.category.toLowerCase() : "";
+        const targetCategory = category.toLowerCase();
+        
+        if (targetCategory === 'todos' || cardCategory === targetCategory) {
+            card.style.display = 'block';
+            card.style.animation = `slideInUp 0.6s ease-out ${index * 0.1}s both`;
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+
+function buscarProductos() {
+    let input = document.getElementById("searchInput");
+    let filtro = input.value.toLowerCase().trim();
+    let productos = document.querySelectorAll(".product-card");
+
+    productos.forEach((producto, index) => {
+        let nombre = producto.querySelector(".product-name")?.innerText.toLowerCase() || "";
+        let descripcion = producto.querySelector(".product-description")?.innerText.toLowerCase() || "";
+        let categoria = producto.querySelector(".product-category")?.innerText.toLowerCase() || "";
+        
+        let textoCompleto = nombre + " " + descripcion + " " + categoria;
+        
+        if (textoCompleto.includes(filtro)) {
+            producto.style.display = "";
+            producto.style.animation = `slideInUp 0.4s ease-out ${index * 0.05}s both`;
+        } else {
+            producto.style.display = "none";
+        }
+    });
+}
+
+// 5. REDIRECCIONAMIENTO DIRECTO ENLACE WHATSAPP EN FORMATO WA.ME
+function checkout() {
+    if (cart.length === 0) {
+        showModal('Tu carrito está vacío. Agrega productos primero.');
+        return;
+    }
+
+    const total = cart.reduce(
+        (sum, item) => sum + (item.price * item.quantity),
+        0
+    );
+
+    let message = '¡Hola! Quiero comprar estos productos:\n\n';
+    cart.forEach(item => {
+        message += `• ${item.name} - S/ ${item.price} x ${item.quantity}\n`;
+    });
+    message += `\nTotal: S/ ${total.toFixed(2)}\n\n¡Gracias! ✨`;
+
+    // Crear URL de WhatsApp correctamente
+    const whatsappUrl =
+    'https://api.whatsapp.com/send?phone=51910158797&text=' +
+    encodeURIComponent(message);
+
+    // Abrir WhatsApp
+    window.open(whatsappUrl, '_blank');
+}
+
+// CONECTOR DE RESPALDO DIRECTO
+document.addEventListener("DOMContentLoaded", () => {
+    const botonEnviar = document.getElementById("btn-whatsapp");
+    if (botonEnviar) {
+        botonEnviar.onclick = checkout;
+    }
+});
